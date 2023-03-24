@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Formulario de ejemplo</title>
+    </head>
+    <body>
+        <aside>
+            <form action="formulario.html" method="POST">
+                <h3>Texto</h3>
+                <label for="nom">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" size="30" maxlength="50">
+    
+                <h3>Password</h3>
+                <label for="clave">Clave: </label>
+                <input type="password" name="pasword" id="password" maxlength="8">
+    
+                <h3>Area de texto</h3>
+                <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+    
+                <h3>Spinner</h3>
+                <label for="spi">Spinner:</label>
+                <input type="number" name="spinner" id="" min="0" max="20" step="1">
+    
+                <h3>Fecha</h3>
+                <label for="Fecha">Fecha:</label>
+                <input type="date" name="fecha" id="">
+    
+                <h3>Fecha-Hora</h3>
+                <label for="FechaHora">Fecha-Hora:</label>
+                <input type="datetime-local" name="fechor" id="">
+    
+                <h3>Hora</h3>
+                <label for="Hora">Hora:</label>
+                <input type="time" name="hora" id="">
+    
+                <h3>Email</h3>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="">
+    
+                <h3>Semana</h3>
+                <label for="semana">Semana:</label>
+                <input type="week" name="semana" id="">
+    
+                <h3>Radio</h3>
+                <label for="genero">Género:</label><br><br>
+                <input type="radio" name="genero" value="F" >Femenino<br><br>
+                <input type="radio" name="genero" value="M" >Masculino
+                
+
+                <h3>Check Box</h3>
+                <label for="idiomas">Idiomas: </label><br>
+                <input type="checkbox" name="idioma">Inglés<br>
+                <input type="checkbox" name="idioma">Francés<br>
+                <input type="checkbox" name="idioma">Alemán<br>
+
+                <h3>Lista de despliegue</h3>
+                <select name="autos" id="">Lista de autos
+                    <option value="mazda">Mazda</option>
+                    <option value="renault">Renault</option>
+                    <option value="BMW">BMW</option>
+                </select>
+                
+                <h3>Select</h3>
+                <label for="categoria">Categoría Docente</label>
+                <select name="cetagoria">
+                    <option value="1">Auxiliar</option>
+                    <option value="2">Asistente</option>
+                    <option value="3">Especial</option>
+                </select>
+
+                <h3>Adjuntar archivos</h3>
+                <label for="archivo">Archivo:</label>
+                <input type="file" name="archivo" id="">
+    
+                <h3>Rango</h3>
+                <label for="rango">Rango:</label>
+                <input type="range" name="rango" id="" min="0" max="30"><br><br>
+    
+                <input type="submit" value="Aceptar">
+            </form>
+        </aside>
+        
+    </body>
+</html>
